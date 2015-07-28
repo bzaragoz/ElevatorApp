@@ -1,0 +1,5 @@
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\Elevators\obj\Debug\ElevatorManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\Elevators\bin\Debug\Elevators.dll
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\Elevators\bin\Debug\Elevators.pdb
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\Elevators\obj\Debug\Elevators.dll
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\Elevators\obj\Debug\Elevators.pdb

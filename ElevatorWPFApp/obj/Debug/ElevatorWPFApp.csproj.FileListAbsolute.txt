@@ -1,0 +1,15 @@
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\bin\Debug\ElevatorWPFApp.exe.config
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\bin\Debug\ElevatorWPFApp.exe
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\bin\Debug\ElevatorWPFApp.pdb
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\obj\Debug\ElevatorWPFApp.csprojResolveAssemblyReference.cache
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\obj\Debug\MainWindow.baml
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\obj\Debug\MainWindow.g.cs
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\obj\Debug\App.g.cs
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\obj\Debug\ElevatorWPFApp_MarkupCompile.cache
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\obj\Debug\ElevatorWPFApp.g.resources
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\obj\Debug\ElevatorWPFApp.Properties.Resources.resources
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\obj\Debug\ElevatorWPFApp.csproj.GenerateResource.Cache
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\obj\Debug\ElevatorWPFApp.exe
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\obj\Debug\ElevatorWPFApp.pdb
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\bin\Debug\Elevators.dll
+C:\Users\Byron\Documents\Visual Studio 2013\Projects\Elevator\ElevatorWPFApp\bin\Debug\Elevators.pdb

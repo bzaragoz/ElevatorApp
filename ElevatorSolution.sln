@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorWPFApp", "ElevatorWPFApp\ElevatorWPFApp.csproj", "{58BAC557-5EE3-4708-B4F0-F0C22CEF1B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorManagementSystem", "Elevators\ElevatorManagementSystem.csproj", "{E6415911-A588-4F94-BFAB-AAB035578320}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58BAC557-5EE3-4708-B4F0-F0C22CEF1B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BAC557-5EE3-4708-B4F0-F0C22CEF1B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BAC557-5EE3-4708-B4F0-F0C22CEF1B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BAC557-5EE3-4708-B4F0-F0C22CEF1B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6415911-A588-4F94-BFAB-AAB035578320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6415911-A588-4F94-BFAB-AAB035578320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6415911-A588-4F94-BFAB-AAB035578320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6415911-A588-4F94-BFAB-AAB035578320}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

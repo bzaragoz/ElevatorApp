@@ -1,0 +1,43 @@
+﻿<Window x:Name="winMain" x:Class="ElevatorWPFApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Elevator GUI" Height="427.438" Width="561.585" Background="#FFD2D2D2">
+    <Grid>
+        <Button x:Name="btnOne" Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Margin="64,169,0,0" Click="btn_Click" Height="30"/>
+        <Button x:Name="btnTwo" Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Margin="64,134,0,0" Click="btn_Click" Height="30"/>
+        <Button x:Name="btnThree" Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Margin="64,99,0,0" Click="btn_Click" Height="30"/>
+        <Button x:Name="btnFour" Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Margin="64,64,0,0" Click="btn_Click" Height="30"/>
+        <Button x:Name="btnFive" Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Margin="64,29,0,0" Click="btn_Click" Height="30"/>
+        <Button x:Name="btnSix" Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Margin="99,169,0,0" Click="btn_Click" Height="30"/>
+        <Button x:Name="btnSeven" Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Margin="99,134,0,0" Click="btn_Click" Height="30"/>
+        <Button x:Name="btnEight" Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Margin="99,99,0,0" Click="btn_Click" Height="30"/>
+        <Button x:Name="btnNine" Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Margin="99,64,0,0" Click="btn_Click" Height="30"/>
+        <Button x:Name="btnTen" Content="10" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Margin="99,29,0,0" Click="btn_Click" Height="30"/>
+        <Label x:Name="lblKoneFloor" Content="Label" HorizontalAlignment="Left" Margin="210,272,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblOtisFloor" Content="Label" HorizontalAlignment="Left" Margin="285,272,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblThyssenKruppFloor" Content="Label" HorizontalAlignment="Left" Margin="451,272,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblSchindlerFloor" Content="Label" HorizontalAlignment="Left" Margin="360,272,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cboxElevator" HorizontalAlignment="Left" Margin="36,221,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem>Kone</ComboBoxItem>
+            <ComboBoxItem>Otis</ComboBoxItem>
+            <ComboBoxItem>Schindler</ComboBoxItem>
+            <ComboBoxItem>Thyssen Krupp</ComboBoxItem>
+        </ComboBox>
+        <Label x:Name="lblKoneStop" Content="Stop" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="213,318,0,0" Foreground="Gray" MouseDoubleClick="lblStop_MouseDoubleClick"/>
+        <Label x:Name="lblOtisStop" Content="Stop" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="287,318,0,0" Foreground="Gray" MouseDoubleClick="lblStop_MouseDoubleClick"/>
+        <Label x:Name="lblSchindlerStop" Content="Stop" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="363,318,0,0" Foreground="Gray" MouseDoubleClick="lblStop_MouseDoubleClick"/>
+        <Label x:Name="lblThyssenKruppStop" Content="Stop" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="454,318,0,0" Foreground="Gray" MouseDoubleClick="lblStop_MouseDoubleClick"/>
+        <Label x:Name="lblKoneStatus" Content="Ready" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="209,295,0,0" Foreground="#FF2AB606" MouseDoubleClick="lblStop_MouseDoubleClick"/>
+        <Label x:Name="lblOtisStatus" Content="Ready" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="283,295,0,0" Foreground="#FF2AB606" MouseDoubleClick="lblStop_MouseDoubleClick"/>
+        <Label x:Name="lblSchindlerStatus" Content="Ready" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="359,295,0,0" Foreground="#FF2AB606" MouseDoubleClick="lblStop_MouseDoubleClick"/>
+        <Label x:Name="lblThyssenKruppStatus" Content="Ready" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="450,295,0,0" Foreground="#FF2AB606" MouseDoubleClick="lblStop_MouseDoubleClick"/>
+        <Button x:Name="btnOpen" Content="Open Doors" HorizontalAlignment="Left" Margin="59,267,0,0" VerticalAlignment="Top" Width="75" Click="btnOpen_Click"/>
+        <Button x:Name="btnClose" Content="Close Doors" HorizontalAlignment="Left" Margin="59,294,0,0" VerticalAlignment="Top" Width="75" Click="btnClose_Click"/>
+        <Label x:Name="lblKobe" Content="KONE" HorizontalAlignment="Left" Margin="203,247,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Segoe WP Black"/>
+        <Label x:Name="lblOtis" Content="Otis" HorizontalAlignment="Left" Margin="284,243,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Yu Gothic"/>
+        <Label x:Name="lblSchindler" Content="Schindler" HorizontalAlignment="Left" Margin="340,251,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Stencil"/>
+        <Label x:Name="lblThyssen" Content="Thyssen" HorizontalAlignment="Left" Margin="442,242,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Script MT Bold"/>
+        <Label x:Name="lblKrupp" Content="Krupp" HorizontalAlignment="Left" Margin="450,253,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Script MT Bold"/>
+        <Button x:Name="btnAlarm" Content="Alarm" HorizontalAlignment="Left" Margin="59,328,0,0" VerticalAlignment="Top" Width="75" Background="Red" BorderBrush="White" Foreground="White" Click="btnAlarm_Click" FontFamily="Showcard Gothic" FontSize="15"/>
+    </Grid>
+</Window>
